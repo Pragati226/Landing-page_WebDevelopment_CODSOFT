@@ -1,0 +1,45 @@
+body{
+    
+}
+
+.sweet{
+    display: flex;
+}
+
+.starting{
+    background-image:url(./image/WhatsApp\ Image\ 2024-11-25\ at\ 20.22.42_04213f83.jpg);
+    width:1500px ;
+    height:400px ;
+}
+
+.flex{
+    display: flex;
+}
+
+.star-rating {
+    display: flex;
+    gap: 5px;
+}
+
+.star {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-color:red;
+    clip-path: polygon(
+        50% 0%,
+        61% 35%,
+        98% 35%,
+        68% 57%,
+        79% 91%,
+        50% 70%,
+        21% 91%,
+        32% 57%,
+        2% 35%,
+        39% 35%
+    );
+}
+
+.star.partial {
+    background: linear-gradient(to right, red 80%, #e0e0e0 20%);
+}
